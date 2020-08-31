@@ -17,7 +17,7 @@ body {
 }
 
 .gnb-menu a { 
-  font-size: 8px;
+  font-size:  20px;
   color: #707070;
   text-decoration: none;
   position: relative;
@@ -30,9 +30,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 1px;
+  height: 2px;
   background: orange;
-  transition: all 0.7s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .gnb-menu a:hover::after { 
@@ -40,33 +40,24 @@ body {
 
 }
 
+
+
 /* images */
 
-.img-hero { 
-  width: 400px;
-  display: block;
-  margin: 20px;
-}
 
-.img-whales { 
-  width: 350px;
-  display: block;
-  padding: 10px;
-  align-items: center;
+img:not(.img-hero) { 
+  margin-top: 100px;
+  padding-left: 300px;
+  display: flex;
+  justify-content: center;
   
-}
 
-.img-birds { 
-  width: 350px;
-  display: block;
-  position: static;
-  padding: 10px;
 }
 
 /*Typography*/
 
 h1 { 
-  font-size: 25px;
+  font-size: 75px;
   font-weight: 500;
   text-align: center;
 
@@ -75,12 +66,13 @@ h1 {
 h2 { 
   text-align: center;
   font-weight: 400;
-  font-size: 15px;
+  font-size: px;
   margin-left: 2%;
+  padding-top: 40px;
 }
 
 h3 { 
-  font-size: 10px ;
+  font-size: 30px ;
   font-weight: 350;
   text-align: center;
   margin-left: 25%;
