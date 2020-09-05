@@ -69,8 +69,20 @@ div.text {
   margin: auto;
 }
 
+div.contact  {
+  text-align: center;
+  margin-top: 10vh;
 
+}
 
+div.experience { 
+  text-align: center;
+  margin-top: 10vh;
+}
+
+div.certificate  { 
+  text-align: center;
+}
 /* typography */
 
 h1 {
@@ -79,8 +91,9 @@ h1 {
 
 }
 
-p { 
+.text p { 
   text-align: center;
+  font-size: 35px;
 }
 
 h2 { 
@@ -88,6 +101,32 @@ h2 {
 
 }
 
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: 450;
+  font-size: 25px;
+}
+
+ .secondh4 {
+  margin-top: 10vh;
+}
+
+ul {
+ display: inline-block;
+ text-align: left;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+hr {
+  width: 25%;
+  ;
+}
 /* button */
 
 .button {
@@ -100,7 +139,7 @@ button {
   border-radius: 43px;
   height: 60px;
   width: 200px;
-  font-size: 25px;
+  font-size: 30px;
   border: none;
   box-shadow: 0 4px 16px rgba(255, 140, 0, 0.3);
   color: black;
@@ -125,11 +164,6 @@ button:hover {
   box-shadow:0 2px 15px rgba(0, 0, 0, 0.4); 
   border-radius: 64px ;
 }
-
-
-
-
-
 
 
 
